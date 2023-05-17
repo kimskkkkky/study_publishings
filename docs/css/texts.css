@@ -1,0 +1,29 @@
+.chorus {
+    color: blueviolet;
+    background-color:aliceblue;
+    text-align: center;
+    font-size: 12px;
+}
+/* class이름을 지정해주고 class별 스타일을 지정할 수 있음, 
+class 이름을 넣을땐 이름앞에 . 을 넣어줌 */
+.verse {
+    color: yellow;
+}
+
+.verse2 {
+    color:blue;
+}
+
+.chorus2 {
+    color: green;
+}
+body {
+    background-color: blanchedalmond;
+}
+
+.text_effect {
+    font-weight: 900;
+    font-size: 20px;
+    color: coral;
+    text-shadow: 5px 5px 5px black;
+}
