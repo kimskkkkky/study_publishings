@@ -1,0 +1,69 @@
+.flex-container {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  background-color: DodgerBlue;
+}
+
+.flex-container_1 {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row;
+  /* row-reverse = 오른쪽부터 나열, column = 세로로 나열 */
+  justify-content: space-between;
+  /* center = 가운데 정렬, end = 오른쪽 정렬, start = 왼쪽 정렬 
+  space-around = 같은 간격을 두고 가운데 정렬, space-between = 양끝과 가운데 정렬(두개만 하면 양끝에 정렬)*/
+}
+
+.flex-container_2 {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    background-color: DodgerBlue;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .flex-container_2 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    /* line-height: 75px; */
+    font-size: 30px;
+  }
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  /* line-height: 75px; */
+  font-size: 30px;
+}
+
+.flex-container_1 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  /* line-height: 75px; */
+  font-size: 30px;
+}
+/* flex는 >를 넣으면 첫번째 하위 태그까지만 적용됨 */
+/* "flex-container > div" div = flex-container의 자녀 첫번째 하위div 까지만 데코 적용 */
+/* "flex-container  div" = flex-container 하위 div 모두 데코 적용*/
+
+.flex-container_10 {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-container_10 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    /* line-height: 75px; */
+    font-size: 30px;
+  }
